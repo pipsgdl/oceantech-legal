@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Aviso de Privacidad de la app móvil Foro 907 — Ocean Technology Solutions, LFPDPPP México.">
+<meta name="robots" content="index, follow">
+<title>Aviso de Privacidad — App Foro 907 | Ocean Tech</title>
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<style>
+  :root {
+    --ot-dark: #0B0F14;
+    --ot-navy: #0B2040;
+    --ot-accent: #00D4FF;
+    --ot-text: #1A1A1A;
+    --ot-muted: #5A6472;
+    --ot-bg: #F8FAFC;
+    --ot-card: #FFFFFF;
+    --ot-border: #E5E9F0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65;
+    color: var(--ot-text);
+    background: var(--ot-bg);
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: linear-gradient(135deg, var(--ot-dark) 0%, var(--ot-navy) 100%);
+    color: #fff;
+    padding: 40px 24px;
+    border-bottom: 3px solid var(--ot-accent);
+  }
+  header .container { max-width: 860px; margin: 0 auto; }
+  header .brand {
+    display: flex; align-items: center; gap: 14px;
+    font-size: 14px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--ot-accent);
+    margin-bottom: 12px;
+  }
+  header .brand::before {
+    content: "";
+    display: inline-block;
+    width: 28px; height: 28px;
+    background: var(--ot-accent);
+    mask: radial-gradient(circle at center, transparent 40%, #000 41%);
+    -webkit-mask: radial-gradient(circle at center, transparent 40%, #000 41%);
+    border-radius: 4px;
+  }
+  header h1 {
+    font-size: 32px; font-weight: 700; margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  header .subtitle {
+    font-size: 15px; color: #A3B1C2;
+  }
+  header .meta {
+    margin-top: 20px; padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 13px; color: #8090A5;
+    display: flex; gap: 24px; flex-wrap: wrap;
+  }
+  main {
+    max-width: 860px;
+    margin: -20px auto 60px;
+    padding: 0 24px;
+  }
+  .card {
+    background: var(--ot-card);
+    border-radius: 12px;
+    border: 1px solid var(--ot-border);
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+  }
+  .toc {
+    background: #F1F5F9;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  .toc h3 {
+    font-size: 13px; letter-spacing: 1px; text-transform: uppercase;
+    color: var(--ot-muted); margin-bottom: 10px;
+  }
+  .toc ol { margin-left: 20px; color: var(--ot-navy); }
+  .toc a { color: var(--ot-navy); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 20px; font-weight: 700; color: var(--ot-navy);
+    margin: 36px 0 16px; padding-top: 12px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  h2::before {
+    content: attr(data-n);
+    background: var(--ot-accent);
+    color: var(--ot-dark);
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 700;
+    flex-shrink: 0;
+  }
+  h3 { font-size: 16px; color: var(--ot-text); margin: 20px 0 10px; }
+  p, li { font-size: 15px; color: var(--ot-text); margin-bottom: 12px; }
+  ul, ol { margin-left: 24px; margin-bottom: 16px; }
+  ul li, ol li { margin-bottom: 6px; }
+  strong { color: var(--ot-navy); }
+  code {
+    background: #F1F5F9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 13px;
+  }
+  .callout {
+    background: #EFF9FF;
+    border-left: 4px solid var(--ot-accent);
+    padding: 14px 18px;
+    border-radius: 4px;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  .callout strong { color: var(--ot-dark); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  table th, table td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--ot-border);
+  }
+  table th {
+    background: #F8FAFC;
+    color: var(--ot-navy);
+    font-weight: 600;
+  }
+  footer {
+    max-width: 860px;
+    margin: 40px auto;
+    padding: 0 24px;
+    text-align: center;
+    color: var(--ot-muted);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  footer a { color: var(--ot-navy); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .lang-switch {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 14px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 6px;
+    font-size: 12px;
+    color: #A3B1C2;
+  }
+  @media (max-width: 640px) {
+    header { padding: 30px 20px; }
+    header h1 { font-size: 24px; }
+    .card { padding: 24px 20px; }
+    main { padding: 0 12px; }
+    h2 { font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand">OCEAN · TECHNOLOGY · SOLUTIONS</div>
+    <h1>Aviso de Privacidad — App Foro 907</h1>
+    <div class="subtitle">Versión integral conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) de México.</div>
+    <div class="meta">
+      <div><strong>Versión:</strong> 1.0</div>
+      <div><strong>Última actualización:</strong> 23 de abril de 2026</div>
+      <div><strong>Vigencia:</strong> A partir de la fecha de publicación</div>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="card">
+
+<div class="toc">
+  <h3>Contenido</h3>
+  <ol>
+    <li><a href="#responsable">Identidad del responsable</a></li>
+    <li><a href="#datos">Datos personales que recabamos</a></li>
+    <li><a href="#finalidades">Finalidades del tratamiento</a></li>
+    <li><a href="#transferencias">Transferencias de datos</a></li>
+    <li><a href="#seguridad">Medidas de seguridad</a></li>
+    <li><a href="#arco">Derechos ARCO</a></li>
+    <li><a href="#retencion">Retención y eliminación</a></li>
+    <li><a href="#menores">Menores de edad</a></li>
+    <li><a href="#cambios">Cambios al aviso</a></li>
+    <li><a href="#contacto">Contacto y autoridad</a></li>
+  </ol>
+</div>
+
+<h2 id="responsable" data-n="1">Identidad del responsable</h2>
+
+<p>
+  <strong>Ocean Technology Solutions</strong> (en adelante "Ocean Tech" o "nosotros"), con domicilio en Guadalajara, Jalisco, México, es el responsable del tratamiento de los datos personales que recaba a través de la aplicación móvil <strong>Foro 907</strong> (en adelante, "la App") disponible para iOS y Android.
+</p>
+
+<p>
+  Ocean Tech desarrolla, opera y mantiene la App como proveedor tecnológico del <strong>Foro Cultural 907 Novecientosiete</strong> (en adelante, "el Foro"), ubicado en Nueva Galicia #135, Zona Centro, Guadalajara, Jalisco. El Foro es el socio comercial (venue) cuyos eventos se venden a través de la App, pero la responsabilidad del tratamiento de los datos personales de los usuarios de la App recae en Ocean Tech.
+</p>
+
+<div class="callout">
+  <strong>Contacto del responsable:</strong><br>
+  Correo: <a href="mailto:privacidad@oceantech.com.mx">privacidad@oceantech.com.mx</a><br>
+  Web: <a href="https://oceantech.com.mx" target="_blank" rel="noopener">oceantech.com.mx</a>
+</div>
+
+<h2 id="datos" data-n="2">Datos personales que recabamos</h2>
+
+<p>Para que la App funcione, recabamos los siguientes datos personales:</p>
+
+<table>
+  <thead>
+    <tr><th>Categoría</th><th>Datos específicos</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identificación</td><td>Nombre o alias mostrado en la app</td></tr>
+    <tr><td>Contacto</td><td>Correo electrónico</td></tr>
+    <tr><td>Autenticación</td><td>Contraseña (almacenada mediante hash bcrypt; nunca en texto plano)</td></tr>
+    <tr><td>Transaccionales</td><td>Historial de compras de boletos, pre-órdenes de alimentos y bebidas, códigos QR emitidos</td></tr>
+    <tr><td>Técnicos</td><td>Identificador del dispositivo, versión del sistema operativo, logs de uso no identificables</td></tr>
+  </tbody>
+</table>
+
+<h3>Datos que NO recabamos</h3>
+<ul>
+  <li>Datos biométricos (huella, rostro, voz)</li>
+  <li>Ubicación geográfica precisa (GPS)</li>
+  <li>Acceso a tus contactos, fotos, cámara o micrófono</li>
+  <li>Datos personales sensibles (salud, preferencias sexuales, afiliación política, creencias religiosas)</li>
+  <li>Información financiera sensible (números de tarjeta): esta información la procesa directamente <strong>Stripe, Inc.</strong> sin pasar por nuestros servidores</li>
+</ul>
+
+<h2 id="finalidades" data-n="3">Finalidades del tratamiento</h2>
+
+<h3>Finalidades primarias (necesarias para prestarte el servicio)</h3>
+<ul>
+  <li>Crear y mantener tu cuenta de usuario en la App</li>
+  <li>Emitir, entregar y validar boletos electrónicos para eventos del Foro</li>
+  <li>Procesar pre-órdenes de alimentos y bebidas para recoger en barra al llegar al evento</li>
+  <li>Enviar comprobantes de compra y notificaciones transaccionales</li>
+  <li>Prevenir fraudes, abusos y accesos no autorizados</li>
+  <li>Cumplir obligaciones fiscales (emisión de facturas cuando se solicite)</li>
+</ul>
+
+<h3>Finalidades secundarias (requieren tu consentimiento, puedes oponerte en cualquier momento)</h3>
+<ul>
+  <li>Envío de comunicaciones promocionales sobre próximos eventos del Foro</li>
+  <li>Encuestas de satisfacción sobre tu experiencia</li>
+  <li>Análisis estadístico agregado (no identificable) para mejorar la App</li>
+</ul>
+
+<div class="callout">
+  <strong>¿Cómo me opongo a las finalidades secundarias?</strong><br>
+  Envía un correo a <a href="mailto:privacidad@oceantech.com.mx">privacidad@oceantech.com.mx</a> desde el correo asociado a tu cuenta con el asunto "Oposición a finalidades secundarias — App 907". Atendemos en un máximo de 20 días hábiles.
+</div>
+
+<h2 id="transferencias" data-n="4">Transferencias de datos</h2>
+
+<p>Solo transferimos datos personales a terceros cuando es estrictamente necesario para operar la App, como lo autoriza el artículo 37 de la LFPDPPP:</p>
+
+<table>
+  <thead>
+    <tr><th>Destinatario</th><th>Finalidad</th><th>País</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stripe, Inc.</td>
+      <td>Procesamiento de pagos con tarjeta. Stripe almacena los datos de tarjeta bajo estándar PCI-DSS; Ocean Tech nunca los ve.</td>
+      <td>Estados Unidos</td>
+    </tr>
+    <tr>
+      <td>Apple Inc. / Google LLC</td>
+      <td>Notificaciones push al dispositivo (cuando el usuario las habilita) y servicios de tienda de aplicaciones.</td>
+      <td>Estados Unidos</td>
+    </tr>
+    <tr>
+      <td>Foro Cultural 907</td>
+      <td>Nombre del titular del boleto y número de boletos para control de acceso en la entrada del evento. No se comparten correos ni contraseñas.</td>
+      <td>México</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>NO vendemos ni rentamos tus datos personales</strong> a terceros con fines publicitarios o de marketing de otras empresas. Tus datos se usan exclusivamente para el funcionamiento de la App y las finalidades descritas.</p>
+
+<h2 id="seguridad" data-n="5">Medidas de seguridad</h2>
+
+<p>Tus datos personales se almacenan en infraestructura operada directamente por Ocean Technology Solutions, con las siguientes medidas técnicas y administrativas:</p>
+
+<ul>
+  <li><strong>Cifrado en tránsito:</strong> TLS 1.3 en toda comunicación entre la App y nuestros servidores</li>
+  <li><strong>Cifrado en reposo:</strong> AES-256 en base de datos y respaldos</li>
+  <li><strong>Contraseñas:</strong> Hash bcrypt con salt aleatorio; imposibilitado recuperarlas en claro</li>
+  <li><strong>Aislamiento por usuario:</strong> Políticas Row Level Security (RLS) en PostgreSQL — cada usuario solo ve sus propios datos</li>
+  <li><strong>Respaldos diarios</strong> con retención de 30 días en datacenters separados geográficamente</li>
+  <li><strong>Control de acceso:</strong> Solo personal autorizado con autenticación multifactor accede a los servidores</li>
+</ul>
+
+<h2 id="arco" data-n="6">Derechos ARCO</h2>
+
+<p>Como titular de datos personales, tienes cuatro derechos fundamentales reconocidos por la LFPDPPP:</p>
+
+<table>
+  <thead>
+    <tr><th>Derecho</th><th>Significado</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Acceso</strong></td><td>Consultar qué datos personales tenemos sobre ti</td></tr>
+    <tr><td><strong>Rectificación</strong></td><td>Corregir datos inexactos o incompletos</td></tr>
+    <tr><td><strong>Cancelación</strong></td><td>Eliminar tu cuenta y los datos asociados</td></tr>
+    <tr><td><strong>Oposición</strong></td><td>Oponerte al uso de tus datos para finalidades específicas</td></tr>
+  </tbody>
+</table>
+
+<h3>Cómo ejercer tus derechos ARCO</h3>
+<ol>
+  <li>Envía un correo a <a href="mailto:privacidad@oceantech.com.mx">privacidad@oceantech.com.mx</a> desde el correo asociado a tu cuenta</li>
+  <li>Indica en el asunto: "Derechos ARCO — App 907"</li>
+  <li>Especifica qué derecho(s) quieres ejercer y sobre qué datos</li>
+  <li>Adjunta identificación oficial escaneada (INE, pasaporte) para verificar tu identidad</li>
+</ol>
+
+<p>Respondemos en un máximo de <strong>20 días hábiles</strong> conforme al artículo 32 de la LFPDPPP, comunicándote la determinación adoptada. Si procede, ejecutamos la acción solicitada en un plazo adicional máximo de 15 días hábiles.</p>
+
+<h2 id="retencion" data-n="7">Retención y eliminación de datos</h2>
+
+<ul>
+  <li><strong>Cuenta activa:</strong> Conservamos tus datos mientras tu cuenta exista y uses la App</li>
+  <li><strong>Cancelación de cuenta:</strong> Eliminamos tus datos personales en un máximo de 30 días hábiles</li>
+  <li><strong>Excepción fiscal:</strong> Los comprobantes de compra (CFDI) se conservan 5 años por obligación del Servicio de Administración Tributaria (SAT), sin datos de autenticación</li>
+  <li><strong>Logs técnicos no identificables:</strong> Se retienen máximo 90 días para diagnóstico y seguridad</li>
+</ul>
+
+<h2 id="menores" data-n="8">Menores de edad</h2>
+
+<p>La App está calificada como <strong>17+ (apta para mayores de edad)</strong> debido a que incluye pre-orden de bebidas alcohólicas. No recabamos conscientemente datos de menores de 18 años. Si identificamos una cuenta registrada por un menor de edad, la cancelamos y eliminamos sus datos de inmediato. Si eres padre o tutor y detectas una cuenta de un menor bajo tu custodia, contacta a <a href="mailto:privacidad@oceantech.com.mx">privacidad@oceantech.com.mx</a> para su eliminación inmediata.</p>
+
+<h2 id="cambios" data-n="9">Cambios a este Aviso</h2>
+
+<p>Nos reservamos el derecho de actualizar este Aviso de Privacidad cuando sea necesario para reflejar cambios en nuestras prácticas, en la ley aplicable, o en los servicios que ofrecemos. Las actualizaciones se publicarán en esta misma URL con la fecha de la última modificación. Los cambios sustanciales se notificarán adicionalmente mediante una notificación push dentro de la App.</p>
+
+<p>El uso continuado de la App después de publicar cambios constituye aceptación del Aviso actualizado. Si no estás de acuerdo con los cambios, puedes cancelar tu cuenta ejerciendo tu derecho de Cancelación.</p>
+
+<h2 id="contacto" data-n="10">Contacto y autoridad competente</h2>
+
+<p>Si tienes dudas, quejas o comentarios sobre este Aviso de Privacidad o sobre el tratamiento de tus datos personales, escríbenos a:</p>
+
+<div class="callout">
+  <strong>Ocean Technology Solutions</strong><br>
+  Correo: <a href="mailto:privacidad@oceantech.com.mx">privacidad@oceantech.com.mx</a><br>
+  Web: <a href="https://oceantech.com.mx" target="_blank" rel="noopener">oceantech.com.mx</a><br>
+  Domicilio: Guadalajara, Jalisco, México
+</div>
+
+<p>Si consideras que tu derecho de protección de datos personales ha sido vulnerado, puedes presentar una denuncia ante el <strong>Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)</strong>:</p>
+
+<ul>
+  <li>Web: <a href="https://home.inai.org.mx" target="_blank" rel="noopener">inai.org.mx</a></li>
+  <li>Teléfono sin costo: 800 835 4324</li>
+</ul>
+
+<hr style="border: none; border-top: 1px solid var(--ot-border); margin: 40px 0 24px;">
+
+<p style="font-size: 13px; color: var(--ot-muted); text-align: center;">
+  Al crear una cuenta en la App Foro 907 aceptas este Aviso de Privacidad en su totalidad.
+</p>
+
+</div>
+</main>
+
+<footer>
+  <p>
+    © 2026 Ocean Technology Solutions. Todos los derechos reservados.<br>
+    <a href="../index.html">Hub legal Ocean Tech</a> · <a href="https://oceantech.com.mx">oceantech.com.mx</a> · <a href="mailto:privacidad@oceantech.com.mx">privacidad@oceantech.com.mx</a>
+  </p>
+  <span class="lang-switch">🇲🇽 Español (México)</span>
+</footer>
+
+</body>
+</html>
