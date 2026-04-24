@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cómo solicitar la eliminación de tu cuenta y datos de la app Foro 907 — Ocean Technology Solutions.">
+<meta name="robots" content="index, follow">
+<title>Eliminar cuenta y datos — App Foro 907 | Ocean Tech</title>
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<style>
+  :root {
+    --ot-dark: #0B0F14;
+    --ot-navy: #0B2040;
+    --ot-accent: #00D4FF;
+    --ot-text: #1A1A1A;
+    --ot-muted: #5A6472;
+    --ot-bg: #F8FAFC;
+    --ot-card: #FFFFFF;
+    --ot-border: #E5E9F0;
+    --ot-danger: #DC2626;
+    --ot-warning: #F59E0B;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65;
+    color: var(--ot-text);
+    background: var(--ot-bg);
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: linear-gradient(135deg, var(--ot-dark) 0%, var(--ot-navy) 100%);
+    color: #fff;
+    padding: 40px 24px;
+    border-bottom: 3px solid var(--ot-accent);
+  }
+  header .container { max-width: 860px; margin: 0 auto; }
+  header .brand {
+    display: flex; align-items: center; gap: 14px;
+    font-size: 14px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--ot-accent);
+    margin-bottom: 12px;
+  }
+  header .brand::before {
+    content: "";
+    display: inline-block;
+    width: 28px; height: 28px;
+    background: var(--ot-accent);
+    mask: radial-gradient(circle at center, transparent 40%, #000 41%);
+    -webkit-mask: radial-gradient(circle at center, transparent 40%, #000 41%);
+    border-radius: 4px;
+  }
+  header h1 {
+    font-size: 32px; font-weight: 700; margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  header .subtitle {
+    font-size: 15px; color: #A3B1C2;
+  }
+  header .meta {
+    margin-top: 20px; padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 13px; color: #8090A5;
+    display: flex; gap: 24px; flex-wrap: wrap;
+  }
+  main {
+    max-width: 860px;
+    margin: -20px auto 60px;
+    padding: 0 24px;
+  }
+  .card {
+    background: var(--ot-card);
+    border-radius: 12px;
+    border: 1px solid var(--ot-border);
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+  }
+  h2 {
+    font-size: 22px;
+    margin: 32px 0 16px;
+    color: var(--ot-navy);
+    border-bottom: 2px solid var(--ot-accent);
+    padding-bottom: 8px;
+    display: inline-block;
+  }
+  h2:first-child { margin-top: 0; }
+  h3 {
+    font-size: 17px;
+    margin: 24px 0 10px;
+    color: var(--ot-dark);
+  }
+  p { margin-bottom: 14px; color: var(--ot-text); }
+  ul, ol {
+    margin: 12px 0 14px 24px;
+  }
+  li { margin-bottom: 6px; }
+  strong { color: var(--ot-dark); }
+  .callout {
+    border-left: 4px solid var(--ot-accent);
+    background: #F0FAFF;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+  }
+  .callout-warn {
+    border-left-color: var(--ot-warning);
+    background: #FFFBEB;
+  }
+  .callout-danger {
+    border-left-color: var(--ot-danger);
+    background: #FEF2F2;
+  }
+  .step {
+    background: #F8FAFC;
+    border: 1px solid var(--ot-border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 14px 0;
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+  .step-num {
+    width: 36px; height: 36px;
+    background: var(--ot-accent);
+    color: var(--ot-dark);
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+  .step-body h4 {
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: var(--ot-dark);
+  }
+  .step-body p {
+    color: var(--ot-muted);
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  a {
+    color: #0052CC;
+    text-decoration: none;
+    border-bottom: 1px dotted #0052CC;
+  }
+  a:hover { color: var(--ot-navy); }
+  .email-box {
+    background: var(--ot-dark);
+    color: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 16px 0;
+    overflow-x: auto;
+  }
+  .email-box .label {
+    color: var(--ot-accent);
+    font-weight: 700;
+    display: inline-block;
+    min-width: 90px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--ot-border);
+    vertical-align: top;
+  }
+  th {
+    background: #F1F5F9;
+    color: var(--ot-dark);
+    font-weight: 600;
+  }
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .badge-danger { background: #FEE2E2; color: #991B1B; }
+  .badge-warn { background: #FEF3C7; color: #92400E; }
+  .badge-ok { background: #D1FAE5; color: #065F46; }
+  footer {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+    color: var(--ot-muted);
+    font-size: 13px;
+    text-align: center;
+  }
+  footer a {
+    color: var(--ot-navy);
+    border: none;
+    text-decoration: underline;
+  }
+  @media (max-width: 640px) {
+    header h1 { font-size: 24px; }
+    .card { padding: 24px 20px; }
+    h2 { font-size: 19px; }
+    .step { grid-template-columns: 36px 1fr; padding: 16px; }
+    .step-num { width: 30px; height: 30px; font-size: 14px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px 10px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand">Ocean · Technology · Solutions</div>
+    <h1>Eliminar cuenta y datos — App Foro 907</h1>
+    <div class="subtitle">Cómo solicitar la eliminación de tu cuenta y la información asociada.</div>
+    <div class="meta">
+      <span><strong>App:</strong> Foro 907</span>
+      <span><strong>Desarrollador:</strong> Ocean Technology Solutions</span>
+      <span><strong>Última actualización:</strong> 24 abr 2026</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="card">
+
+    <h2>1. Introducción</h2>
+    <p>
+      En la aplicación <strong>Foro 907</strong>, operada por <strong>Ocean Technology Solutions</strong>
+      como Responsable del tratamiento de datos personales, respetamos tu derecho a solicitar la
+      eliminación de tu cuenta y de los datos personales asociados, conforme a la
+      <strong>Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)</strong>
+      de México y a las políticas de Google Play Store.
+    </p>
+    <p>
+      Esta página describe el procedimiento exacto para ejercer tu derecho de cancelación (ARCO:
+      Acceso, Rectificación, Cancelación, Oposición), los datos que se eliminan, los datos que debemos
+      conservar por obligación legal y los tiempos de respuesta.
+    </p>
+
+    <h2>2. Cómo solicitar la eliminación</h2>
+
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h4>Envía un correo electrónico</h4>
+        <p>
+          Envía un mensaje desde la <strong>misma dirección de correo</strong> con la que creaste tu
+          cuenta en Foro 907 a:
+          <a href="mailto:privacidad@oceantech.com.mx?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20-%20Foro%20907">privacidad@oceantech.com.mx</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h4>Indica los datos mínimos</h4>
+        <p>
+          Usa el siguiente formato para que podamos procesar tu solicitud sin demoras:
+        </p>
+      </div>
+    </div>
+
+    <div class="email-box">
+<span class="label">Para:</span> privacidad@oceantech.com.mx<br>
+<span class="label">Asunto:</span> Solicitud de eliminación de cuenta — App Foro 907<br>
+<span class="label">Mensaje:</span><br><br>
+Solicito la eliminación total de mi cuenta y datos personales<br>
+asociados a la aplicación Foro 907.<br><br>
+- Nombre completo: &lt;tu nombre&gt;<br>
+- Correo registrado en la app: &lt;tu@email.com&gt;<br>
+- Teléfono (opcional): &lt;+52 ...&gt;<br>
+- Motivo (opcional): &lt;libre&gt;<br><br>
+Declaro que soy el titular legítimo de los datos y confirmo<br>
+mi consentimiento para la cancelación conforme a LFPDPPP.
+    </div>
+
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h4>Recibe confirmación</h4>
+        <p>
+          Te responderemos en un plazo <strong>máximo de 20 días hábiles</strong> (LFPDPPP, art. 32)
+          con la confirmación de que tu cuenta y datos personales fueron eliminados, y cuáles registros
+          debemos conservar por obligación fiscal o legal (ver sección 4).
+        </p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>💡 Alternativa interna (próximamente):</strong>
+      estamos preparando un botón directo <em>"Eliminar mi cuenta"</em> dentro del perfil de la app.
+      Mientras tanto, el correo electrónico es el canal oficial y válido.
+    </div>
+
+    <h2>3. Qué datos se eliminan</h2>
+    <p>
+      Al aprobar tu solicitud, eliminamos de forma permanente los siguientes datos de nuestros
+      servidores y sistemas activos:
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Tipo de dato</th>
+          <th>Estado tras solicitud</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Credenciales de acceso (correo, contraseña cifrada)</td>
+          <td><span class="badge badge-ok">Eliminado</span></td>
+        </tr>
+        <tr>
+          <td>Perfil público: nombre, foto, teléfono, preferencias</td>
+          <td><span class="badge badge-ok">Eliminado</span></td>
+        </tr>
+        <tr>
+          <td>Tokens de dispositivo (push notifications)</td>
+          <td><span class="badge badge-ok">Eliminado</span></td>
+        </tr>
+        <tr>
+          <td>Historial de navegación dentro de la app</td>
+          <td><span class="badge badge-ok">Eliminado</span></td>
+        </tr>
+        <tr>
+          <td>Lista de favoritos, eventos guardados, intereses</td>
+          <td><span class="badge badge-ok">Eliminado</span></td>
+        </tr>
+        <tr>
+          <td>Datos de identificadores de sesión / cookies</td>
+          <td><span class="badge badge-ok">Eliminado</span></td>
+        </tr>
+        <tr>
+          <td>Métricas anonimizadas (sin posibilidad de reidentificación)</td>
+          <td><span class="badge badge-ok">Eliminado o anonimizado</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. Qué datos se conservan (obligación legal)</h2>
+    <p>
+      Por disposición fiscal, contable y de prevención de fraude, estamos obligados a conservar
+      ciertos registros <strong>aun después de que elimines tu cuenta</strong>. Estos datos se almacenan
+      cifrados, con acceso restringido, y solamente para los fines aquí descritos:
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Categoría</th>
+          <th>Tiempo de retención</th>
+          <th>Base legal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Facturas / CFDI de boletos adquiridos (datos fiscales: RFC, monto, fecha, folio)</td>
+          <td><span class="badge badge-warn">5 años</span></td>
+          <td>Código Fiscal de la Federación, art. 30</td>
+        </tr>
+        <tr>
+          <td>Registros de transacciones de pago (monto, fecha, referencia Stripe, sin número de tarjeta)</td>
+          <td><span class="badge badge-warn">5 años</span></td>
+          <td>Prevención de fraude y conciliación bancaria</td>
+        </tr>
+        <tr>
+          <td>Logs de seguridad y acceso</td>
+          <td><span class="badge badge-warn">90 días</span></td>
+          <td>Seguridad de la información</td>
+        </tr>
+        <tr>
+          <td>Registros de revocación del consentimiento</td>
+          <td><span class="badge badge-danger">Indefinido</span></td>
+          <td>Prueba del ejercicio de derechos ARCO (LFPDPPP)</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="callout callout-warn">
+      <strong>Importante:</strong> los datos retenidos están desvinculados de tu perfil activo. Ya no
+      serán usados para enviarte comunicaciones, personalización o marketing. Solo se mantienen para
+      cumplir obligaciones legales auditables.
+    </div>
+
+    <h2>5. Eliminación parcial (sin borrar tu cuenta)</h2>
+    <p>
+      Si deseas conservar tu cuenta pero eliminar sólo <strong>algunos</strong> datos (por ejemplo,
+      borrar tu foto de perfil, historial de eventos o preferencias de notificaciones), envía la
+      misma solicitud al correo
+      <a href="mailto:privacidad@oceantech.com.mx?subject=Solicitud%20de%20eliminaci%C3%B3n%20parcial%20-%20Foro%20907">privacidad@oceantech.com.mx</a>
+      indicando exactamente qué categorías de datos deseas eliminar. Respondemos con el mismo plazo
+      de <strong>20 días hábiles</strong>.
+    </p>
+
+    <h2>6. Desinstalar la app ≠ eliminar la cuenta</h2>
+    <div class="callout callout-danger">
+      <strong>⚠️ Atención:</strong> desinstalar la aplicación Foro 907 de tu dispositivo <strong>no
+      elimina tu cuenta ni los datos almacenados en nuestros servidores</strong>. Para que tus datos
+      sean eliminados de nuestra base, debes enviar la solicitud formal descrita en la sección 2.
+    </div>
+
+    <h2>7. Contacto y autoridad reguladora</h2>
+    <p><strong>Responsable del tratamiento:</strong><br>
+    Ocean Technology Solutions<br>
+    Guadalajara, Jalisco, México<br>
+    Correo de privacidad: <a href="mailto:privacidad@oceantech.com.mx">privacidad@oceantech.com.mx</a><br>
+    Sitio web: <a href="https://oceantech.com.mx" target="_blank" rel="noopener">oceantech.com.mx</a>
+    </p>
+    <p>
+      Si consideras que tu derecho a la protección de datos personales ha sido vulnerado, puedes
+      acudir al <strong>Instituto Nacional de Transparencia, Acceso a la Información y Protección de
+      Datos Personales (INAI)</strong>:
+      <a href="https://home.inai.org.mx/" target="_blank" rel="noopener">home.inai.org.mx</a>.
+    </p>
+
+    <h2>8. Relación con el Aviso de Privacidad</h2>
+    <p>
+      Esta página es un extracto operativo del
+      <a href="./privacidad.html">Aviso de Privacidad integral de la App Foro 907</a>, específicamente
+      de la cláusula sobre <em>Derechos ARCO</em> y <em>Retención y eliminación de datos</em>. En caso
+      de discrepancia, prevalece el Aviso de Privacidad completo.
+    </p>
+
+  </div>
+</main>
+
+<footer>
+  © 2026 Ocean Technology Solutions — <a href="./privacidad.html">Aviso de Privacidad</a> ·
+  <a href="mailto:privacidad@oceantech.com.mx">Contacto</a>
+</footer>
+
+</body>
+</html>
